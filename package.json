@@ -6,8 +6,9 @@
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "start": "react-native start",
-    "test": "jest .  --passWithNoTests",
-    "lint": ""
+    "test": "jest",
+    "lint:js": "eslint . ",
+    "lint:css": "stylelint './src/**/*.js'"
   },
   "dependencies": {
     "react": "16.13.1",
@@ -23,9 +24,15 @@
     "eslint-plugin-jest": "^24.0.0",
     "eslint-plugin-react": "^7.20.0",
     "eslint-plugin-react-native": "^3.9.1",
+    "husky": "^4.3.0",
     "jest": "^25.1.0",
     "lint-staged": "^10.3.0",
     "metro-react-native-babel-preset": "^0.59.0",
-    "react-test-renderer": "16.13.1"
+    "prettier": "^2.1.1",
+    "react-test-renderer": "16.13.1",
+    "stylelint": "^13.7.0",
+    "stylelint-config-recommended": "^3.0.0",
+    "stylelint-config-styled-components": "^0.1.1",
+    "stylelint-processor-styled-components": "^1.10.0"
   }
 }

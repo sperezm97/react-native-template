@@ -13,7 +13,9 @@ You will need the following requirements to used:
 - Github Account
 - App Center Account
 - Stripe Account
-- 
+
+For AppCenter needs to login with a github account and follow up the steps to intall on iOS and Android. 
+
 ## Usage
 
 run dev environment

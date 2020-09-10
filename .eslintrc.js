@@ -29,5 +29,12 @@ module.exports = {
     ],
     'react/jsx-one-expression-per-line': 0,
     'react/jsx-filename-extension': 0,
+    'import/no-extraneous-dependencies': [
+      'error',
+      { devDependencies: true, optionalDependencies: false, peerDependencies: false },
+    ],
+    'import/extensions': 0,
+    'arrow-parens': ['error', 'as-needed'],
+    'operator-linebreak': ['error', 'after'],
   },
 };
